@@ -1,0 +1,330 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  background-color: #fff;
+  margin: 0;
+}
+
+section {
+  background-color: #f2f2f2;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container.container-1 {
+  padding-top: 96px;
+  padding-bottom: 137px;
+}
+
+.container.container-1 .card-wrapper {
+  margin-top: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container.container-1 .card-wrapper > .card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 270px;
+  background-color: #fff;
+}
+
+.container.container-1 .card-wrapper > .card img {
+  width: 100%;
+  min-width: 270px;
+  max-width: 270px;
+  background-color: darkcyan;
+}
+
+.container.container-1 .card-wrapper > .card .text {
+  padding-bottom: 24px;
+  padding-left: 24px;
+}
+
+.container.container-1 .card-wrapper > .card .text .label-feature h3 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.container.container-1 .card-wrapper > .card .text .label-see {
+  margin-top: 74px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.container.container-2 {
+  padding-top: 70px;
+  padding-bottom: 52px;
+}
+
+.container.container-2 .card-wrapper {
+  margin-top: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container.container-2 .card-wrapper > .card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 370px;
+}
+
+.container.container-2 .card-wrapper > .card img {
+  width: 100%;
+  min-width: 370px;
+  max-width: 370px;
+  background-color: darkcyan;
+}
+
+.container.container-2 .card-wrapper > .card .text {
+  background-color: transparent;
+}
+
+.container.container-2 .card-wrapper > .card .text .desc h3 {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: normal;
+}
+
+.container.container-2 .card-wrapper > .card .text .label-learn {
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.container.container-3 {
+  padding-top: 80px;
+  padding-bottom: 80;
+}
+
+.container.container-3 .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container.container-3 .card-wrapper > .card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 370px;
+  min-width: 370px;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(1) {
+  background-color: #000;
+  padding: 56px 47px 134px 48px;
+  color: #fff;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(1) h2 {
+  font-size: 56px;
+  font-weight: normal;
+  line-height: 66px;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(2) {
+  background-color: #888888;
+  color: #fff;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(2) .text {
+  padding: 38px 25px 359px 26px;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(2) .text .label-category {
+  background-color: #000;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px 23px 8px 24px;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(2) .text .desc {
+  margin-top: 15px;
+  background-color: #000;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 24px 20px 23px 24px;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(2) .text .desc h4 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(3) {
+  color: #000;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(3) > div {
+  background-color: #fff;
+  padding: 40px 48px 41px 47px;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(3) > div .label-category {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(3) > div .desc h4 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(3) > div .label-author {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.container.container-3 .card-wrapper > .card:nth-child(3) > div:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.container.container-4 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container.container-4 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+
+.container.container-4 .header img {
+  background-color: #222222;
+  width: 30%;
+  min-width: 300px;
+}
+
+.container.container-4 .header > div {
+  width: 70%;
+  min-width: 500px;
+  background-color: #000;
+  color: #fff;
+}
+
+.container.container-4 .header > div .text {
+  padding: 54px 200px 49px 78px;
+}
+
+.container.container-4 .header > div .text .label-author {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.container.container-4 .header > div .text .desc h2 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: normal;
+}
+
+.container.container-4 .header > div .text .label-read {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.container.container-4 .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container.container-4 .card-wrapper .card {
+  min-width: 400px;
+  max-width: 570px;
+  background-color: #fff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container.container-4 .card-wrapper .card .text {
+  padding: 48px;
+}
+
+.container.container-4 .card-wrapper .card .text .heading-text h3 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.container.container-4 .card-wrapper .card .text .desc p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.container.container-4 .card-wrapper .card .text .label-read {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 37px;
+}
+
+.heading h3 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+.heading h4 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 27px;
+}
+/*# sourceMappingURL=main.css.map */
