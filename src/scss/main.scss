@@ -79,8 +79,8 @@ section {
         
                 img {
                     width: 100%;
-                    min-width: 370px;
-                    max-width: 370px;
+                    min-width: 270px;
+                    max-width: 270px;
                     background-color:darkcyan;
                     }
                 .text {
@@ -112,7 +112,7 @@ section {
                 margin-left: 15px;
                 margin-right: 15px;
                 max-width: 370px;
-                min-width: 370px;
+                min-width: 270px;
 
                 &:nth-child(1) {
                     background-color: #000;
@@ -201,7 +201,7 @@ section {
             }
             > div {
                 width: 70%;
-                min-width: 500px;
+                min-width: 300px;
                 background-color: #000;
                 color: #fff;
                 .text {
@@ -228,12 +228,11 @@ section {
             display: flex;
             flex-wrap: wrap;
             .card {
-                min-width: 400px;
+                min-width: 300px;
                 max-width: 570px;
                 background-color: #fff;
                 flex: 1;
-                margin-left: 15px;
-                margin-right: 15px;
+                margin: 15px;
                 .text {
                     padding: 48px;
                     .heading-text {
